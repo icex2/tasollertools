@@ -10,7 +10,7 @@ A collection of "tools", files and documentation for
 [Source](https://www.dj-dao.com/en/support/10.html)
 
 * [Distribution package](firmware/official-v1.1/TASOLLER_firmware_20210202_V1.1.zip)
-* [Instructions](firmware/official-v1.1/TASOLLER firmware upgrade V1.1 (2021.02.02) - Support - DJ-DAO.pdf)
+* [Instructions](firmware/official-v1.1/instructions.pdf)
 
 ## Custom V1.1
 
@@ -49,7 +49,7 @@ connect the controller to one of the USB ports of that card
 [Source](https://www.dj-dao.com/cn/11.html)
 
 * [Distribution package](firmware/official-v2.01/TASOLLER_firmware_20210419_V2.01.zip)
-* [Instructions](firmware/official-v2.01/TASOLLER firmware upgrade V2.0 (2021.4.20)-Support-DJ-DAO.pdf)
+* [Instructions](firmware/official-v2.01/instructions.pdf)
 
 # Troubleshooting
 
