@@ -5,14 +5,25 @@ A collection of "tools", files and documentation for
 
 # Firmwares
 
-## Official V1.1
+## Official
+
+### Official V1.1
 
 [Source](https://www.dj-dao.com/en/support/10.html)
 
 * [Distribution package](firmware/official-v1.1/TASOLLER_firmware_20210202_V1.1.zip)
 * [Instructions](firmware/official-v1.1/instructions.pdf)
 
-## Custom V1.1
+### Official V2.01
+
+[Source](https://www.dj-dao.com/cn/11.html)
+
+* [Distribution package](firmware/official-v2.01/TASOLLER_firmware_20210419_V2.01.zip)
+* [Instructions](firmware/official-v2.01/instructions.pdf)
+
+## Custom
+
+### Custom V1.1
 
 This firmware requires the cypress base firmware prior [V2.01](#official-v2-01) (the firmware you
 have to update using the UART cable). Once you updated everything to [V2.01](#official-v2-01), this
@@ -24,12 +35,21 @@ the rainbox lights once the controller is powered and booted, but slider inputs 
 * [Fixed chuniio.dll](firmware/custom-v1.1/chuniio-tasoller-fixed.dll): Use this one instead of
 the `chuniio.dll` provided with the distribution package. It fixes incorrect light mappings.
 
+### Custom V2.0
+
+This firmware requires the cypress base firmware [V2.01](#official-v2-01) (the firmware you
+have to update using the UART cable).
+
+* [Distribution package](firmware/custom-v2.0/TASOLLER_LED_FIRMWARE_V2.zip)
+* Instruction: Inside distribution package
+
 ### USB chipset incompatibility
 
 There are known issues with incompatible USB chipsets. The root-cause is currently unknown.
 
-Once you updated to the [custom firmware](#custom-v1-1), the device shows up as `I SAY NYA-O` in the
-device manager. However, on further inspection, it shows that the device is not working correctly.
+Once you updated to the custom firmware, either [V1.1](#custom-v1-1) or [V2.0](#custom-v2-0), the
+device shows up as `I SAY NYA-O` in the device manager. However, on further inspection, it shows
+that the device is not working correctly.
 
 Potential mitigations:
 
@@ -43,13 +63,6 @@ connect the controller to one of the USB ports of that card
 * [ULANSeN 7-Port PCI-E to Type C (2), Type A (5) USB 3.0 Expansion Card with 2 Rear USB 3.0 Ports PCI Express Card](https://www.amazon.com/dp/B08H1WKQWR/ref=cm_sw_r_cp_awdb_imm_KN33ESRZD2T4G1CN8J0Q)
 
 #### Known incompatible hardware
-
-## Official V2.01
-
-[Source](https://www.dj-dao.com/cn/11.html)
-
-* [Distribution package](firmware/official-v2.01/TASOLLER_firmware_20210419_V2.01.zip)
-* [Instructions](firmware/official-v2.01/instructions.pdf)
 
 # Troubleshooting
 
