@@ -70,6 +70,16 @@ connect the controller to one of the USB ports of that card
 
 See [known issue with USB chipset incompatibility](#usb-chipset-incompatibility).
 
+# segatools chuniio
+
+## chuniio implementation by akiroz
+
+Copy of
+[50d9cfe16e1b29984cb49ef9e2731fa5fb47e1c4](https://dev.s-ul.net/akiroz/chuniio-tasoller/-/commit/50d9cfe16e1b29984cb49ef9e2731fa5fb47e1c4)
+of [akiroz's chuniio implementation](https://dev.s-ul.net/akiroz/chuniio-tasoller).
+
+See the dedicated [readme](chuniio-tasoller/README.md) for details.
+
 # Development
 
 ## Custom firmware lsusb device information
